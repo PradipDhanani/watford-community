@@ -14,7 +14,7 @@ public class YourHomeFeatureTest extends TestBase {
     //object created
     HomePage homePage = new HomePage();
 
-    @Test
+    @Test(groups = {"regression"})
     public void verifyUserShouldNavigateToYourHomeFeature() {
         //below methods calling from pages package
         homePage.clickOnYourHomeFeature();

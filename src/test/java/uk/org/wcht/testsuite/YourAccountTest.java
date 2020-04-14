@@ -16,7 +16,7 @@ public class YourAccountTest extends TestBase {
     MyAccountPage myAccountPage = new MyAccountPage();
 
 
-    @Test
+    @Test(groups = {"sanity","smoke","regression"})
     public void verifyUserShouldNavigateToYourAccountPage(){
         //below methods calling from pages package
         homePage.setClickOnYourAccount();
